@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+        body{
+            background-color: rgba(120, 122, 122, 0.959) ;
+        }
+        #h{
+            background-color: rgb(64, 73, 65);
+            box-shadow: 7px 7px 20px rgb(8, 8, 8);
+        }
+        h1{
+            color: whitesmoke;
+        }
+        td{
+            color: wheat;
+        }
+        #n{
+        background-color: rgb(64, 73, 65);
+        color: wheat;
+        font-size: 15px;
+        width: 100px;
+        }
+        #n1{
+         color: wheat;
+         background-color: rgb(64, 73, 65);
+         height: 14px;
+         outline: none;
+        }
+        #n2{
+         background-color: rgb(64, 73, 65);
+         width: 170px;
+        }
+    </style>
+</head>
+<body>
+        <center>
+             <form action="">
+                  <table id="h" border="1"  cellspacing="5" cellpadding="8">
+                     <h1> Digital Examination Enrollment Form</h1>
+                     <tr>
+                          <td> <i class="fa-solid fa-user"></i> Student Name :</td>
+                          <td><input id="n1"  type="text" placeholder="Enter Name" required></td>
+                     </tr>
+                     <tr>
+                        <td> Roll Number :</td>
+                        <td><input id="n1"  type="text" placeholder="Enter No."></td>
+                     </tr>
+                     <tr>
+                        <td> <i class="fa-solid fa-graduation-cap"></i> Course Name : </td>
+                        <td><input id="n1"  type="text" placeholder="Enter Cou. Name"></td>
+                     </tr>
+                     <tr>
+                        <td> <i class="fa-solid fa-book"></i> Subject Name :</td>
+                        <td> <input id="n1"  type="text" placeholder="Enter Sub.Name"></td>
+                     </tr>
+                     <tr>
+                        <td>Exam Type : </td>
+                        <td><select name="Exam Type" miltiple id="n2" >
+                                <option value="select">select</option>
+                                <option value="Mid-Term">Mid-Term</option>
+                                <option value="Final Exam ">Final Exam</option>
+                                <option value="Practical Exam">Practical Eaxm</option>
+                                <option value="Re-Exam">Re-Exam</option>
+                                <option value="Viva">Viva</option>
+                            </select>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Exam Date :</td>
+                        <td><input id="n2"  type="date"></td>
+                     </tr>
+                     <tr>
+                        <td>Semester :</td>
+                        <td><input id="n1"  type="text" placeholder="Year"></td>
+                     </tr>
+                     <tr>
+                        <td> <i class="fa-solid fa-phone"></i> Mobile Number :</td>
+                        <td><input id="n1"  type="number" placeholder="Enter No."></td>
+                     </tr>
+                     <tr>
+                        <td> <i class="fa-solid fa-at"></i> Email ID :</td>
+                        <td></i><input id="n1"  type="text" placeholder="Enter Email"></td>
+                     </tr>
+                     <tr align="center">
+                        <td colspan="2"><button  id="n">sumbit</button></td>
+                     </tr>
+                  </table>
+             </form>
+        </center>
+</body>
+</html>
